@@ -432,12 +432,16 @@
 
     <distributionManagement>
         <repository>
-            <id>trinetx</id>
-            <name>trinetx</name>
-            <url>http://archiva.vpc.trinetx.com/repository/trinetx/</url>
+            <id>trinetx.artifactory-releases</id>
+            <name>trinetx releases</name>
+            <url>https://trinetxuseast1.jfrog.io/artifactory/trinetx-release-virtual/</url>
         </repository>
+        <snapshotRepository>
+            <id>trinetx.artifactory-snapshots</id>
+            <name>trinetx snapshots</name>
+            <url>https://trinetxuseast1.jfrog.io/artifactory/trinetx-snapshot-virginia-local/</url>
+        </snapshotRepository>
     </distributionManagement>
-
 
     <profiles>
         <profile>
